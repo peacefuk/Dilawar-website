@@ -2,121 +2,98 @@
 
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
 
-body{
+body {
     font-family: 'Poppins', sans-serif;
 
 }
 
-ul li{
-          list-style: none;         
+ul li {
+    list-style: none;
 }
 
-a{
-        font-size: 1.5rem;
-        text-decoration: none;
-        color: rgba(0, 0, 0, 0.89);
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.89);
 }
 
-p, li{
-       font-size: 1.6rem;
-       margin-bottom: 0.5em;
-}
-
-h1, h2, h3{
+p,
+li {
+    font-size: 1.6rem;
     margin-bottom: 0.5em;
 }
-img{
+
+h1,
+h2,
+h3 {
+    margin-bottom: 0.5em;
+}
+
+img {
     width: 30px;
     height: 30px;
     margin-left: 18px;
     margin-top: 10px;
-    
+
 }
 
-.header{
-         height: 95vh;
-}
-.navbar{
-
-       padding: 1rem;
+.header {
+    height: 95vh;
 }
 
-.header .logo{
-              color: rgb(255, 208, 0);
-              margin-left: 5px;
-              margin-top: 10px;
+.navbar {
+
+    padding: 1rem;
+}
+
+.header .logo {
+    color: rgb(255, 208, 0);
+    margin-left: 5px;
+    margin-top: 10px;
 }
 
 .header .navbar .logo,
-.header .navbar img{
-    float:left;
+.header .navbar img {
+    float: left;
     font-size: 2rem;
 }
 
-.header .navbar .nav-items{
-                  float:right;
-                  margin-top: 0.5rem;
-                  margin-right: 360px;
-                  
+.header .navbar .nav-items {
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 360px;
+
 }
 
-.header .navbar .nav-item{
-                 display: inline-block;
-                 padding: 0.5rem; 
-}
-
-
-.navbar::after{
-                content: '';
-                display: block;
-                clear: both;
-}
-
-.nav-line{
-           text-align: center;
-           border: 2px solid red;
-           padding: 10px;
-           background-color: rgba(255, 166, 0, 0.192);
-}
-.nav-line a{
-                background-color:rgba(255, 208, 0, 0.719);
+.header .navbar .nav-item {
+    display: inline-block;
+    padding: 0.5rem;
 }
 
 
+.navbar::after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
+.nav-line {
+    text-align: center;
 
+    padding: 12px;
+    background-color: rgba(255, 166, 0, 0.192);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.nav-line a {
+    background-color: rgba(255, 208, 0, 0.719);
+}
