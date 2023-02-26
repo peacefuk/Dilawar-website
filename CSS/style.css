@@ -10,10 +10,12 @@
 
 html {
     font-size: 62.5%;
+
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    display: flex;
 
 }
 
@@ -96,4 +98,86 @@ img {
 
 .nav-line a {
     background-color: rgba(255, 208, 0, 0.719);
+}
+
+
+
+
+.header-content .part-A {
+    margin-left: 80px;
+    font-size: xx-large;
+    color: #1E2329;
+}
+
+.header-content .part-B {
+    margin-left: 80px;
+    font-size: xx-large;
+    color: #1E2329;
+}
+
+.header-content .part-C {
+    margin-left: 80px;
+    color: #1E2329;
+    font-weight: 400;
+    font-size: large;
+
+}
+
+.login {
+    margin-left: 100px;
+    color: #181A20;
+    background-color: #FCD535;
+    border: 2px solid #FCD535;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-weight: 550;
+    border-radius: 5px;
+}
+
+.login-continue {
+    margin-left: 220px;
+    color: #707A8A;
+}
+
+.login-google {
+    background-color: #EAECEF;
+    border-radius: 5px;
+    margin-left: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 50px;
+    padding-right: 78px;
+    color: #1E2329;
+    font-weight: 500;
+}
+
+.login-apple {
+
+    margin-left: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 60px;
+    padding-right: 78px;
+    background-color: #EAECEF;
+    border-radius: 5px;
+    color: #1E2329;
+    font-weight: 500;
+
+}
+
+.pic1 {
+
+    margin-left: 800px;
+    width: 150px;
+    height: 100px;
+    float: inline-start;
+}
+
+.pic2 {
+    margin-left: 1000px;
+    width: 150px;
+    height: 100px;
 }
