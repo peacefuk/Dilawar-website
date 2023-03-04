@@ -15,9 +15,9 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    display: flex;
 
 }
+
 
 ul li {
     list-style: none;
@@ -74,7 +74,6 @@ img {
     float: right;
     margin-top: 0.5rem;
     margin-right: 360px;
-
 }
 
 .header .navbar .nav-item {
@@ -100,13 +99,11 @@ img {
     background-color: rgba(255, 208, 0, 0.719);
 }
 
-
-
-
 .header-content .part-A {
     margin-left: 80px;
     font-size: xx-large;
     color: #1E2329;
+
 }
 
 .header-content .part-B {
@@ -120,7 +117,6 @@ img {
     color: #1E2329;
     font-weight: 400;
     font-size: large;
-
 }
 
 .login {
@@ -165,19 +161,230 @@ img {
     border-radius: 5px;
     color: #1E2329;
     font-weight: 500;
+}
+
+.right-div {
+    display: inline-block;
+    float: right;
+    margin-right: 250px;
 
 }
 
 .pic1 {
-
-    margin-left: 800px;
-    width: 150px;
-    height: 100px;
-    float: inline-start;
+    height: 350px;
+    width: 250px;
 }
 
 .pic2 {
-    margin-left: 1000px;
-    width: 150px;
-    height: 100px;
+    height: 350px;
+    width: 200px;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    margin-left: 80px;
+}
+
+.content-1 h1 {
+    font-size: xx-large;
+    color: #181A20;
+
+}
+
+.content-2 {
+    font-size: x-large;
+    color: #181A20;
+    margin-left: 90px;
+}
+
+.content-3 {
+    font-size: x-large;
+    color: #181A20;
+    margin-left: 90px;
+}
+
+.content-4 {
+    font-size: x-large;
+    color: #181A20;
+    margin-left: 150px;
+}
+
+.image3 {
+    display: block;
+    width: 1250px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+}
+
+
+
+.page-3heading {
+    font-size: x-large;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+.pheading-page3 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 200;
+    font-size: small;
+    margin-top: 70px;
+}
+
+.heading-part1 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.heading-part2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.heading-part3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+.heading-part4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.heading-part5 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.last-part {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.page3-last {
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+.last-part a {
+    font-weight: 500;
+    background-color: #FCD535;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+
+}
+
+.image4-heading {
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+.image4-heading h1 {
+    font-size: xx-large;
+}
+
+.image4-heading p {
+    font-size: medium;
+    font-weight: 400;
+    color: #1E2329;
+}
+
+.image4-data {
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.data1 {
+    margin-bottom: 60px;
+    font-size: large;
+}
+
+
+.data1 p {
+    font-weight: 300;
+}
+
+.data2 {
+    margin-bottom: 60px;
+    font-size: large;
+
+}
+
+
+.data2 p {
+    font-weight: 300;
+}
+
+.data3 {
+    margin-top: 60px;
+    font-size: large;
+    margin-bottom: 70px;
+}
+
+.data3 p {
+    font-weight: 300;
+}
+
+.image4-link {
+    margin-bottom: 90px;
+    font-weight: 500;
+    background-color: #FCD535;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 3px;
+}
+
+.pic4 {
+    display: inline-block;
+    float: right;
+}
+
+.pic4 img {
+    width: 325px;
+    height: 650px;
+    margin-right: 220px;
+    margin-bottom: 190px;
+}
+
+
+.data1 img {
+    width: 90px;
+    height: 50px;
+}
+
+
+.data2 img {
+    width: 90px;
+    height: 50px;
+}
+
+.data3 img {
+    width: 90px;
+    height: 50px;
 }
